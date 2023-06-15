@@ -6,10 +6,10 @@ import copy
 BG = (255, 255, 255)
 GRID = (0, 0, 0)
 LINE_WIDTH = 3
+MIN_ZOOM = 5
 
 class graph:
     f_list = []
-    MIN_ZOOM = 5
     zoom_level = 32
     x_offset = 0
     y_offset = 0
@@ -27,8 +27,8 @@ class graph:
             print(f.evaluate(x))
     def zoom_change(self, value):
         self.zoom_level += value
-        if self.zoom_level < self.MIN_ZOOM:
-            self.zoom_level = self.MIN_ZOOM
+        if self.zoom_level < MIN_ZOOM:
+            self.zoom_level = MIN_ZOOM
     def move_vector(self, dx, dy):
         self.x_offset += dx
         self.y_offset += dy

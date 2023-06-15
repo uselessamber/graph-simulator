@@ -9,7 +9,6 @@ WIDTH = 1024
 HEIGHT = 768
 FPS = 60
 ZOOM_AMOUNT = 2
-func_list = []
 
 def setup():
     global main_graph, screen, clock, prev, text_mode, text_prompt
