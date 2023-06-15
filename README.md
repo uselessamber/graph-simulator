@@ -1,5 +1,5 @@
 # Graph Simulator
-## by Amby (UselessAmber)
+by Amby (UselessAmber)
 
 Created as a part of the Coding Jam.
 
@@ -8,8 +8,11 @@ Created as a part of the Coding Jam.
 Run the main.py file. It will show an empty graph.
 
 Use left click to drag the location.
+
 Use mouse scroll to zoom.
+
 Press Backspace to re-center the graph.
+
 Press Return to add a function (f(x))
 
 ## Code and Change-able Constants
